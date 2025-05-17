@@ -1,5 +1,4 @@
-import Navbar from "@/components/Navbar";
-import Providers from "@/hooks/providers";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -29,10 +28,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Providers>
-          <Navbar />
+        <ThemeProvider defaultTheme="light">
           {children}
-        </Providers>
+        </ThemeProvider>
       </body>
     </html>
   );
