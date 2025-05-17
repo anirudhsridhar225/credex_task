@@ -16,6 +16,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "JustSell",
   description: "Software that helps you sell",
+  keywords: ["software licenses", "license marketplace", "software resale", "SoftSell", "license valuation"],
+  authors: [{ name: "SoftSell Team" }],
+  creator: "SoftSell Inc.",
+  publisher: "SoftSell Inc.",
+  formatDetection: {
+    telephone: false,
+  },
+  metadataBase: new URL("https://softsell-example.com"),
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
