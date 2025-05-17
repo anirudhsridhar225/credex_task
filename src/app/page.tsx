@@ -3,11 +3,6 @@ import Hero from "@/components/HeroSection";
 import HowItWorks from "@/components/HowItWorks";
 import Navbar from "@/components/Navbar";
 import WhyChoose from "@/components/WhyChoose";
-import { Fraunces } from "next/font/google";
-
-const fraunces = Fraunces({
-  subsets: ["latin"],
-});
 
 export default function Home() {
   return (

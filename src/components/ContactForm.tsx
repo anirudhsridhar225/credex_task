@@ -78,7 +78,7 @@ export default function ContactForm() {
                             <Alert className="bg-green-50 text-green-800 dark:bg-green-900/30 dark:text-green-300 border-green-200 dark:border-green-800 mb-6">
                                 <CheckCircle2 className="h-4 w-4" />
                                 <AlertTitle>Success!</AlertTitle>
-                                <AlertDescription>Your message has been sent successfully. We'll get back to you soon.</AlertDescription>
+                                <AlertDescription>Your message has been sent successfully. We will get back to you soon.</AlertDescription>
                             </Alert>
                         )}
 
